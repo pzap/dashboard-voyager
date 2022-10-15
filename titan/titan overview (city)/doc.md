@@ -362,5 +362,5 @@ ________________________________________________________________________________
 |	Subs promotor_u_dw	|	SWITCH('by Parameter'[Chose Value Parameter],<br />1,AVERAGE('All City'[data_availability_promotor_u_dwe]),<br />2,AVERAGE('All City'[web_browsing_promotor_u_dwe]),<br />3,AVERAGE('All City'[streaming_promotor_u_dwe]),<br />4,AVERAGE('All City'[social_media_promotor_u_dwe]),<br />5,AVERAGE('All City'[gaming_promotor_u_dwe]))	|
 
 
-
-
+## **A.5. ERD**
+![ERD](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20overview%20(city)/ERD.png)
