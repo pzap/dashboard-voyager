@@ -17,7 +17,7 @@ all documentation about TNPS cardinality overview dashboard ```updated Oct 14th 
 
 ## **A.2. columns**
 ______________________________________________________________________________________________________________________________________________________________________
-**A.2.1 all city & all city maxy**
+**A.2.1. all city & all city maxy**
 | column                      | type | unit |
 |-----------------------------|------|------|
 |	kabupaten	|	string	|		|
