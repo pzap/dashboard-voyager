@@ -12,8 +12,6 @@ all documentation about TNPS cardinality network dashboard ```updated Oct 14th 2
 | All City | DSN_MMA_CDH_IMPALA_MMAID | sbx_titan.cei_city | select * from sbx_titan.cei_city | sql |
 | nw_city_squad | DSN_MMA_CDH_IMPALA_MMAID | sbx_bca.nw_city_squad | select * from sbx_bca.nw_city_squad | sql |
 | nw_dim_city | DSN_MMA_CDH_IMPALA_MMAID | sbx_bca.nw_dim_city | select * from sbx_bca.nw_dim_city | sql |
-| by Parameter | - | - | let <br />Source = Table.FromRows(Json.Document<br />(Binary.Decompress<br />(Binary.FromText<br />("i45WMlTSUXJJLElUcCxL<br />zMxJTMrMySypVIrViVYyAs<br />qEpyYpOBXllxdn5qWDBY2BgsElR<br />amJuTARE5BIfnJmYo6Cb<br />2pKZiJY0BQo6A5VEwsA", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [id = _t, category = _t]), <br />#"Changed Type" = Table.TransformColumnTypes (Source,{{"id", Int64.Type}, {"category", type text}}), <br />#"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"category", "Parameter"}})<br /> in <br />#"Renamed Columns" | mcode |
-| All City Maxy|-|-|let<br />Source = #"All City",<br />#"Added Custom" = Table.AddColumn(Source, "max week", each [year]&[week]),<br />#"Changed Type" = Table.TransformColumnTypes(#"Added Custom",{{"max week", Int64.Type}}),<br />#"Added Custom1" = Table.AddColumn(#"Changed Type", "Custom", each List.Max(#"Changed Type"[max week])),<br />#"Filtered Rows" = Table.SelectRows(#"Added Custom1", each ([max week] = [Custom]))<br />in<br />#"Filtered Rows"|mcode|
 
 ## **A.2. columns**
 ______________________________________________________________________________________________________________________________________________________________________
