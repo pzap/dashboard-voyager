@@ -1,6 +1,6 @@
 # **A. titan network - tower level**
 all documentation about TNPS cardinality network dashboard ```updated Oct 14th 2022```
-![Titan Overview - subs overview](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20overview%20(city)/Titan%20Overview%20-%20subs%20overview.png)
+![Titan Network - tower level](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20network%20(tower)/Titan%20Network%20-%20tower%20level.png)
 1. data sources, 
 2. columns, 
 3. dax columns & measures
