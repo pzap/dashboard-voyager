@@ -1,6 +1,6 @@
 # **A. titan overview - city level**
 all documentation about TNPS cardinality overview dashboard ```updated Oct 14th 2022```
-![Titan Overview - subs overview]([https://github.com/pzap/titan-dashboard/blob/main/Titan%20Overview%20-%20subs%20overview.png](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20overview%20(city)/Titan%20Overview%20-%20subs%20overview.png)
+![Titan Overview - subs overview](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20overview%20(city)/Titan%20Overview%20-%20subs%20overview.png)
 1. data sources, 
 2. columns, 
 3. dax columns & measures
