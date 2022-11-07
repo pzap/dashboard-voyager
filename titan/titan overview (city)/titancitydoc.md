@@ -364,4 +364,4 @@ ________________________________________________________________________________
 
 
 ## **A.5. erd (data model)**
-![ERD](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20overview%20(city)/ERD.png)
+![ERD](https://github.com/pzap/dashboard-voyager/blob/main/titan/titan%20overview%20(city)/ERD.jpg)
